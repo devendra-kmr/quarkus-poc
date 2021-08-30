@@ -22,6 +22,7 @@ import org.jboss.resteasy.annotations.SseElementType;
 import io.smallrye.mutiny.Multi;
 import io.smallrye.mutiny.operators.multi.processors.BroadcastProcessor;
 
+
 @Singleton
 @Path("/")
 public class DemoResource {
